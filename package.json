@@ -1,0 +1,32 @@
+{
+  "name": "foo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js lib bin && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mocha",
+    "only"
+  ],
+  "author": "Aaron Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "preferGlobal": "true",
+  "bin": {
+    "mocha-dot-only": "bin/bin.js"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0"
+  }
+}
